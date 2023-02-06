@@ -1,0 +1,52 @@
+Car Inventory
+Dealership locations
+managers
+salespeople
+customers
+prospects
+
+Car
+- new/used. new managed by bmw
+--common
+- vin#
+- make
+- model
+- year
+- style
+- color
+- engine
+- cost
+- selling price
+- transmission
+--only for used
+- car's condition
+- mileage
+- repairs
+- previous owner
+
+Sales Person
+- Location
+- Designation(manager/sales person)
+- Reports to
+- etc employee info check from hoffer diagram that sir showed last class
+
+
+Customer
+- Assigned sales person
+- prospect/already bought(think of a term)
+- prospect ID
+- car purchased
+
+
+Invoice
+- Customer
+- Car
+- date of purchase
+- sales person
+
+
+Prospect
+- stage of process, how many models interested in
+- quote
+- car id
+- date of contact
