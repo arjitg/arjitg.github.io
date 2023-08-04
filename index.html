@@ -3,15 +3,19 @@
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	TODO:
+		make a timeline UI in about section
+		get in touch replace by resume section
 -->
 <html>
 	<head>
 		<title>Arjit Gupta's Portfolio</title>
-		<link rel="shortcut icon" href="fav.png" />
+		<link rel="shortcut icon" href="images/fav.png" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="description" content="Computer Science Graduate from Colorado State University | Software Engineer"/>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/6.4.2/css/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
@@ -19,7 +23,7 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="Alumni_pic.jpg" alt="" /></span>
+					<span class="image avatar"><img src="images/ArjitGuptacropped.jpg" alt="" /></span>
 					<!-- <h1 id="logo"><a href="#">Arjit Gupta</a></h1>
 					<p>I am a software engineer<br />
 						and a masters grad at Colorado State University</p> -->
@@ -29,16 +33,17 @@
 						<li><a href="#one" class="active">About</a></li>
 						<li><a href="#two">Things I Can Do</a></li>
 						<li><a href="#three">A Few Accomplishments</a></li>
-						<li><a href="#four">Get in touch</a></li>
+						<li><a href="#four">Hire Me!</a></li>
 					</ul>
 				</nav>
+				<img src="https://leetcard.jacoblin.cool/arjitg?theme=unicorn&font=Noto%20Sans%20Masaram%20Gondi">
 				<footer>
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://github.com/arjitg/" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://medium.com/@arjitg" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
+						<li><a href="https://www.linkedin.com/in/arjitg/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
+						<!-- <li><a href="#" class="fa-solid fa-code"><span class="label"></span></a></li> -->
+						<li><a href="mailto:arjit.98g@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 				</footer>
 			</section>
@@ -52,16 +57,15 @@
 						<!-- One -->
 							<section id="one">
 								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
+									<img src="images/newBanner.jpeg" alt="" />
 								</div>
 								<div class="container">
 									<header class="major">
-										<h2>Arjit Gupta</h2>
-										<p>I am a software engineer<br />
-											and a masters grad at Colorado State University</p>
+										<h2>ARJIT GUPTA</h2>
+										<p>Software Engineer | Cloud | Scalable Systems</p>
 									</header>
 									<p>
-										I am a Computer Science student studying Masters in Computer Information Systems at Colorado State University. 
+										I am a Software EngineerComputer Science student studying Masters in Computer Information Systems at Colorado State University. 
 										Before this I was a senior software engineer at <a href="https://elastic.run/" target="_blank">ElasticRun</a>, dabbling in 
 										Python, MySQL, Javascript, Kibana and occassionally using docker and kubernetes. 
 										Over there, I helped create a scalable rural distribution network that served millions of users 
@@ -89,8 +93,24 @@
 						<!-- Three -->
 							<section id="three">
 								<div class="container">
-									<h3>A Few Accomplishments</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+									<h3>A few accomplishments</h3>
+
+									<p>
+										2016: Worked on a fish guided rover using OpenCV and Python
+										<br>
+										2018: Created a chest X-ray disease prediction system.
+										<br>
+										2019: Built a monitoring system to help find the fastest moving queue at a ticket counter
+										<br>
+										2020: Built a scalable invoice reconciliation system for ElasticRun, among many other projects
+										<br>
+										2021: Prototyped a Put to Light System which helped decrease manpower effort and improve operation feasiblity, 
+												all while reducing costs and improving profitability for Elasticrun.
+										<br>
+										2022: Led a team of 3 to disrupt a rural warehouse distribution concept CFC.
+										<br>
+										2023: Created an NFT Marketplace app 
+									</p>
 									<div class="features">
 										<article>
 											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
@@ -122,6 +142,9 @@
 								<div class="container">
 									<h3>Get in touch</h3>
 									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+
+									<img src="https://leetcard.jacoblin.cool/arjitg?theme=unicorn&font=Noto%20Sans%20Masaram%20Gondi&ext=activity">
+
 									<form method="post" action="#">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
@@ -140,7 +163,7 @@
 							</section>
 
 						<!-- Five -->
-						<!--
+						<!-- <!-- -->
 							<section id="five">
 								<div class="container">
 									<h3>Elements</h3>
@@ -468,7 +491,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 								</div>
 							</section>
-						-->
+						<!-- --1> -->
 
 					</div>
 
